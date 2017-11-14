@@ -109,13 +109,16 @@ To add custom software components to an appliance:
 
 	In both cases, you must select the type. If you select ``first boot``, then the boot script will be launched once, the first time the instance is launched.  If you select ``every boot``, then the boot script will be launched every time the instance is rebooted. You must also set the boot order.
 
-	12. From the ``Licenses`` page, select a standard licence, or select ``Custom`` and then click ``upload`` to upload any licenses you want to add to this software.
+	12. From the ``Licenses`` page, select a standard licence, or select ``Custom`` and then click ``upload`` to upload any licenses you want to add to this software. Changes are automatically saved.
+	
 	13. Add the uploaded software component to the appliance.  Click on the ``Appliance Library`` to view your Appliance Library.  Double-click on the appliance template you want to add the software to.
+	
 	14. Go to the ``Stack`` page and click on the ``My Software`` button in the toolbox.
 
 		.. image:: /images/mysoftware.png
 
 	15. Select the software components you want to add and click the down arrow button.
+	
 	16. Click ``save`` to add this software component to your appliance template.
 
 .. _restriction-rules:
